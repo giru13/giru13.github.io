@@ -365,8 +365,8 @@ body
     height: 400px;
     border: 5px 
     margin: 20px auto;
-    margin-top: 10px;
-    margin-bottom: 100px
+    margin-top: 60px;
+    
 }
 
 .item1, .item2{
@@ -375,21 +375,21 @@ body
    
 }
 .item1{ /*foto OFERTA*/
-    background-color: lightgreen;
+    background-color: transparent;
     left: 150px;
-    position: relative;
+    position:relative;
     
 }
-.item1 img{
-    height: 200px;
-    width: 200px;
-    display: inline-block;
+.item1 img img {
+    
+    left: 0px;
+     
 }
 .item2{ /*INFO OFERTA*/
 
     position: relative;
     left: 600px;
-    
+    font-size: 17px;
 }
 .box2 { /*BOX DE CONTACTO ALINEADA*/
     width: 400px;
@@ -398,7 +398,73 @@ body
     margin: 20px auto;
     margin: 40 auto 80px;
 }
+
+.container44{
+    margin-top: -70px;  /* distance  banner con oferta item */ 
+}
+
+.footer44{
+    margin-top: 400px;  /* distance texto oferta con footer */ 
+    background: #f5f6fc;
+}
+
+
+.footer44 h5
+{
+    margin-bottom: 50px;
+}
+.footer44 h5:before
+{
+    content: '';
+    width: 70px;
+    height: 3px;
+    
+    top: 75px;
+    position: absolute;
+}
+
+
+/*/ 2nd box  OFERTA ITEM PAGE /*/
+
+
+.box3{
+    width: 400px;
+    height: 400px;
+    border: 5px 
+    margin: 20px auto;
+    margin-top: 10px;
+     
+}
+
+.item3, .item4{
+    width: 400px;
+    height: 40px;
+   
+}
+.item3{ /*foto OFERTA*/
+   
+    left: 150px;
+    position: relative;}
+
+ .item4{ /*INFO OFERTA*/
+
+        position:relative;
+        left: 600px;
+        margin-block-end: 16px;
+    }
+    
+    .item5 {
+        position: relative;
+        left: 600px;
+        top: 120px; /*envio la extra info de zona/oferta abajo y no MERGED with item4)*/
+         
+        margin-block-end: 30px;
+    }
+
+
+
 .llamar
+max-width: 700px;
  
 }
 

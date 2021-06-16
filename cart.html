@@ -39,7 +39,7 @@
         
     </ul> 
     <ul class="searchBox ml-auto">
-         <a href="index.html"> <li><i class="fa fa-home searchBox-icon"></i></li></a>
+        <a href="index.html"> <li><i class="fa fa-home searchBox-icon"></i></li></a>
         <li><i class="fa fa-shopping-cart searchBox-icon"></i></li>
         <li><i class="fa fab-facebook searchBox-icon"></i></li>
         <li>
@@ -52,74 +52,110 @@
         </li>
       </ul>
   </div>
-</nav>
-    
-    <div class="banner">
-        <div class="banner-img">
-            <img src="pics/banner.jpg">
-        </div>  
-        <div class="banner-title">
-            <h1>compras a un click</h1>
-            <h1>entregas de L-S</h1>
-        </div>
-    </div>  
+</nav>  
 </section>
     
 <!---------trends footer products---------->
 
 <section class="primer-col">
     <div class="container">
-        <p class="text-center">ENVIOS A TODO EL GAM.</p>
-    </div>
-    <div class="row">
-            <div class="col-md-4 text-center">
-                <div class="latest-img">
-                    <img src="pics/prodhome1.jpeg">
-                </div>
-                <h5>Producto 1</h5>
-            </div>
-            <div class="col-md-4 text-center">
-                <div class="latest-img">
-                    <img src="pics/prodhome2.jpeg">
-                </div>
-                <h5>Producto 2</h5>
-            </div>
-            <div class="col-md-4 text-center">
-                <div class="latest-img">
-                    <img src="pics/prodhome3.jpeg">
-                </div>
-                <h5>Producto 3</h5>
-            </div>
-        </div>
+        <p class="text-center"> SHOPPING CART.</p>
     </div>
 </section>
     
-<!----------About-fashion(offer)---------->
-    
-<section class="offer">
-    <div class="row">
-        <div class="col-md-6 text-center">
-            <img src="pics/main-opt.jpeg">
+
+
+<div class="containercart">
+    <div class="payment_details">
+      <h1>Payment Information</h1>
+      <div class="details_card">
+        <div class="name_address">
+          <div class="first_lastName">
+            <input type="text" placeholder="First Name" />
+            <input type="text" placeholder="Last Name" />
+          </div>
+          <div class="address">
+            <input type="text" onkeyup="change()" id="put" placeholder="Address" />
+            <input type="number" placeholder="Pincode" />
+            <input type="text" placeholder="Country" />
+          </div>
         </div>
-        <div class="col-md-6">
-            <div class="subscribe">
-                <h4>OFERTA DEL DIA</h4>
-                <p> Aprovechá ofertas diarias y mensuales, 
-                    adquiere hoy el 2x1 en nuestro kit de tes.</p>
-                    <p>★★★★☆</p>
-                    <p>$15.00</p>
-                <a href="oferta.html">Ver detalles</a>
-            </div>
+        <h1>Shipping Details</h1>
+        <div class="shipping_card">
+          <div class="new_card">
+            <h4>oficina</h4>
+            <p id="output">Av 10, Calle 7</p>
+          
+          </div>
+          <div class="add_savedcard">
+            <h4>casa</h4>
+            <p>Av 8, Calle 5</p>
+           
+          </div>
         </div>
+        <div class="proced_payment">
+          <a href="">Procced to payment</a>
+        </div>
+      </div>
     </div>
-</section>
-    
-  <!---------------latest-fashions aka borrar-------------  
-    
- <section class="latest-fashion">
-    <div class="container">
-        
-</section> ------->
+    <div class="order_summary">
+      <h1>Order</h1>
+      <div class="summary_card">
+        <div class="card_item">
+          <div class="product_img">
+            <img src ="pics/prod6.jpeg"></a>
+          </div>
+          <div class="product_info">
+            <h1>14 Day KIT 2x1</h1>
+            <p>oferta del dia</p>
+            <div class="close-btn">
+              <i class="fa fa-close"></i>
+            </div>
+            <div class="product_rate_info">
+              <h1>$ 30</h1>
+              <span class="pqt-minus">-</span>
+              <span class="pqt">1</span>
+              <span class="pqt-plus">+</span>
+            </div>
+          </div>
+        </div>
+        <div class="card_item">
+          <div class="product_img">
+            <img src ="pics/prodhome1.jpeg"></a>
+          </div>
+          <div class="product_info">
+            <h1>Paleo Puffs</h1>
+            <p>promo snacks</p>
+            <div class="close-btn">
+              <i class="fa fa-close"></i>
+            </div>
+            <div class="product_rate_info">
+              <h1>$ 10</h1>
+              <span class="pqt-minus">-</span>
+              <span class="pqt">1</span>
+              <span class="pqt-plus">+</span>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="order_price">
+          <p>Orden</p>
+          <h4>$40</h4>
+        </div>
+        <div class="order_service">
+          <p>Envio</p>
+          <h4>$0</h4>
+        </div>
+        <div class="order_total">
+          <p>Total</p>
+          <h4>$40</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  
+ 
     
 <!--------------------Social Logos aka envio 30----------->
 
@@ -127,30 +163,12 @@
     <div class="envio-Title text-center">
     <h1>ENVIO GRATIS EN ORDENES DE $30</h1>
     </div>
-    
-                     
-               <!---  </div>
-                <p>EXCLUSIVE OFFERS</p>
-            </div>
+    <div class="container">
+        <div class="row text-center">
             <div class="col-md-3">
                  
                      
-                </div>
-                <p>MIN. 40% OFF</p>
-            </div>
-            <div class="col-md-3">
-                
-                     
-                </div>
-                <p>FREE DELIVERY</p>
-            </div>
-            <div class="col-md-3">
-              
-                </div>
-                <p>UP TO 50% OFF</p>
-            </div>
-        </div>
-    </div> ---->
+               
 </section> 
     
 <!------------------footer------------------>
@@ -167,14 +185,13 @@
             <div class="col-md-4">
                 <div class="foot-acerca">
                     <h5>ACERCA DE</h5>
-                   <p>Email us</p>
-
-                   <p>Suscribe</p>
-                    
-                   <p>Privacy policy</p>
-                    
-                   <p>FAQ</p>
-                </div>
+                    <p>Email us</p>
+ 
+                    <p>Suscribe</p>
+                     
+                    <p>Privacy policy</p>
+                     
+                    <p>FAQ</p></div>
             </div>
             <div class="col-md-4">
                 <div class="app-download">
@@ -188,7 +205,7 @@
         <hr>
         <div class="row">
             <div class="col-md-8">
-                <p class="copyright">Copyright © 2021 LLC. All Rights Reserved 
+                <p class="copyright">Copyright © 2021 LLC. All Rights Reserved
                     <a href="https://github.com/giru13">giru</a></p>    
             </div>
             <div class="col-md-4">
